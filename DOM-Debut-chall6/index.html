@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="joueur-0-panneau active">
+                <div class="joueur-nom" id="nom-0">Joueur 1</div>
+                <div class="joueur-score" id="score-0">43</div>
+                <div class="joueur-actuel-box">
+                    <div class="joueur-actuel-label">Actuel</div>
+                    <div class="joueur-actuel-score" id="actuel-0">11</div>
+                </div>
+            </div>
+            
+            <div class="joueur-1-panneau">
+                <div class="joueur-nom" id="nom-1">Joueur 2</div>
+                <div class="joueur-score" id="score-1">72</div>
+                <div class="joueur-actuel-box">
+                    <div class="joueur-actuel-label">Actuel</div>
+                    <div class="joueur-actuel-score" id="actuel-1">0</div>
+                </div>
+            </div>
+            
+            <!-- <form id="myForm">
+                <label for="myScore">Définir la valeur du score final</label>
+                <input id="myScore" name="scoreForm" value="10">
+                <input type="submit" value="Envoyer !">
+            </form>  -->
+
+            
+
+            <!-- <input id="id1" type="number" min="1" max="100" required>
+            <button onclick="myFunction()">OK</button>
+
+            <p id="demo"></p> -->
+              
+
+            <button class="btn-partie"><i class="ion-ios-plus-outline"></i>Nouvelle partie</button>
+            <button class="btn-lancer"><i class="ion-ios-loop"></i>Lancer</button>
+            <button class="btn-garder"><i class="ion-ios-download-outline"></i>Garder</button>
+            
+            <div id="wrapperdes">
+                <img src="de-5.png" alt="Dé" class="de">
+                <img src="de-5.png" alt="Dé" class="de2">
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
